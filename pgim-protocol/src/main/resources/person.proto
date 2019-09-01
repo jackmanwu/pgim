@@ -1,0 +1,10 @@
+syntax = "proto2";
+package com.jackmanwu.pgim.protocol;
+
+option java_package = "com.jackmanwu.pgim.protocol";
+option java_outer_classname = "PersonBvo";
+message Person {
+    required string name = 1;
+    required int32 id = 2;
+    optional string desc = 212;
+}
